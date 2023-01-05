@@ -2,6 +2,7 @@
 
 """Who's that Pokemon! """
 
+import os
 
 def pokedex():
     #"define starters"
