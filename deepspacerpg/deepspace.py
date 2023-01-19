@@ -103,7 +103,7 @@ simtype("""\nCosmonaut, my name is B.E.N. I am the Bio-Electronic Navigator of t
 #begin first task - break out of cryo-chamber
 def cryo():
     simtype("Good job, cosmonaut. We are now in the crychamber. We have to make it to the Flight deck in order to reroute the course.")
-    print("\n\n\x1B[3mYou step out of the \x1B\n\n)
+    print("\n\n\x1B[3mYou step out of the crypod into a room. A red light rotates above a steel door to your left. Alarms can still be heard in the distance. Directly to the left and right of your crypod are the pods of your crewmates. In front of you is a table, and on the other side are a row of hanging suits \x1B\n\n")
     if task == "table":
         print("You have chosen the task: table.")
     elif task == "suit":
